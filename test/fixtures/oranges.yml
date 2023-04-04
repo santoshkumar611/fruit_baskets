@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  basket: one
+  variety: MyString
+
+two:
+  basket: two
+  variety: MyString
