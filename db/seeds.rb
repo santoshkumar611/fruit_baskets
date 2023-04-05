@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 baskets = []
-5.times do |i|
-  baskets.push([{capacity: rand(1...28)}])
+50.times do |i|
+  baskets.push([{capacity: rand(2..27)}])
 end
 Basket.create(baskets)
